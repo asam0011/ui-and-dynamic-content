@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 1.5rem;
+    
+}
+
+html{
+    max-width: 45rem;
+    font-size: 100%;
+    line-height: 1rem;
+}
+
+
+.bg-color{
+    background-color: #AD7E26;
+    background-size: cover;
+    width: 100%;
+    margin: 1rem;
+    margin-left: 24rem;
+    /*padding: 1rem;*/
+}
+
+
+body{
+    background-color: #E8DDA4;
+}
+
+.banner{
+    position: relative;
+    right: 2rem;
+    
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
+.provide{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+#feedback{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+
+form{
+    padding: 1rem;
+    margin: 1rem;
+       
+}
+
+#entry{
+    
+padding: 15px 5px;
+width: 92%;
+text-align: center;
+border-radius: 5px;
+font-size: 1.2rem;
+}
+
+
+#addBtn{
+    
+    width: 94%;
+    padding: 15px 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #F9A31A;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #AD7E26;
+    cursor: pointer;
+    color: white;
+
+    }
+
+
+
+#Collected-items{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    height: 25px;
+    margin: 3rem;
+    padding: 15px 10px;
+    align-items: center;
+    cursor: pointer;
+   
+}    
+
+ul{
+    padding: 15px;
+}
+
+li{
+    position: relative;
+    list-style: none;
+    padding: 15px 5px;
+    background-color: #AD7E26;
+    margin: 5px 0;
+    transition: .4s;
+    width: 100%;
+    top: -4.5rem;
+    right: 1.50rem;
+ 
+
+}
+
+li:hover{
+    background-color: #F9A31A;
+
+}
+.footer{
+    position: relative;
+    top: 6rem;
+    display: flex;
+    justify-content: center;
+    margin-top: -10rem;
+
+
+}
+
+footer > a img{
+    margin: 2rem;
+}
